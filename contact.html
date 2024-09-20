@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar">
+   <!-- <nav class="navbar">
         <div class="logo-container">
             <img src="logo.png" alt="Techno Fast Industries Logo" class="logo">
             <div class="industry-name">
@@ -27,10 +27,10 @@
         <div class="menu-bar" onclick="toggleSidebar()">
             &#9776;
         </div>
-    </nav>
+    </nav>-->
 
     <!-- Sidebar for Small Screens -->
-    <div class="sidebar" id="sidebar">
+  <!--  <div class="sidebar" id="sidebar">
         <div class="sidebar-header">
             <img src="logo.png" alt="Techno Fast Industries Logo" class="logo">
             <div class="industry-name">
@@ -54,7 +54,32 @@
             <a href="home.html">Home</a> / <span>Contact Us</span>
           </nav>
         </div>
-      </div>
+      </div>-->
+    <nav class="navbar">
+            <div class="logo-container">
+                <img src="logo.png" alt="Techno Fast Industries Logo" class="logo">
+                <div class="industry-name">
+                    <h1>Techno Fast Industries</h1>
+                    <p>Your Trusted Partner in Fasteners</p>
+                </div>
+            </div>
+        
+            <!-- Menu Icon for Small Screens -->
+            <div class="menu-icon" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i> <!-- Font Awesome menu icon -->
+            </div>
+            
+            <!-- Menu Close Button for Small Screens -->
+           
+            
+            <ul class="nav-links">
+                <li><a href="home.html" onclick="toggleSidebar()"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html" onclick="toggleSidebar()"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="product.html" onclick="toggleSidebar()"><i class="fas fa-box"></i> Product</a></li>
+                <li><a href="contact.html" onclick="toggleSidebar()"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="menu-overlay" onclick="toggleSidebar()"></div>
+        </nav>
       
 
     <div class="contactformmenu-section">
