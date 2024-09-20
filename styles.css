@@ -82,7 +82,7 @@ body {
     z-index: 1000;
 }
 
-/*.sidebar-header {
+.sidebar-header {
     display: flex;
     text-align: left; /* Align text to the left */
     padding-left: 50px; /* Adjust padding to create space from the close button */
