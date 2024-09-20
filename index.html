@@ -4,20 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Techno Fast Industries</title>
-    <link rel="icon" type="image/png" href="logo.png">
-
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar">
+   <!-- <nav class="navbar">
         <div class="logo-container">
             <img src="logo.png" alt="Techno Fast Industries Logo" class="logo">
             <div class="industry-name">
-                <h1 class="industry-name-heading">Techno Fast Industries</h1>
-                <p class="industry-name-heading" >Your Trusted Partner in Fasteners</p>
+                <h1>Techno Fast Industries</h1>
+                <p>Your Trusted Partner in Fasteners</p>
             </div>
         </div>
         <ul class="nav-links">
@@ -29,10 +27,10 @@
         <div class="menu-bar" onclick="toggleSidebar()">
             &#9776;
         </div>
-    </nav>
+    </nav>-->
 
     <!-- Sidebar for Small Screens -->
-    <div class="sidebar" id="sidebar">
+   <!-- <div class="sidebar" id="sidebar">
         <div class="sidebar-header">
             <img src="logo.png" alt="Techno Fast Industries Logo" class="logo">
             <div class="industry-name">
@@ -46,7 +44,33 @@
             <li><a href="product.html" onclick="toggleSidebar()">Product</a></li>
             <li><a href="contact.html" onclick="toggleSidebar()">Contact</a></li>
         </ul>
-    </div>
+    </div>-->
+    <nav class="navbar">
+            <div class="logo-container">
+                <img src="logo.png" alt="Techno Fast Industries Logo" class="logo">
+                <div class="industry-name">
+                    <h1>Techno Fast Industries</h1>
+                    <p>Your Trusted Partner in Fasteners</p>
+                </div>
+            </div>
+        
+            <!-- Menu Icon for Small Screens -->
+            <div class="menu-icon" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i> <!-- Font Awesome menu icon -->
+            </div>
+            
+            <!-- Menu Close Button for Small Screens -->
+           
+            
+            <ul class="nav-links">
+                <li><a href="home.html" onclick="toggleSidebar()"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html" onclick="toggleSidebar()"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="product.html" onclick="toggleSidebar()"><i class="fas fa-box"></i> Product</a></li>
+                <li><a href="contact.html" onclick="toggleSidebar()"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="menu-overlay" onclick="toggleSidebar()"></div>
+        </nav>
+    
     
 
 <!-- Font Awesome for Icons -->
@@ -78,7 +102,6 @@
 <section class="hero">
     
     <div class="slide-container" id="slideContainer">
-    
         <div class="slide">
             <img src="backgroundone.jpeg" alt="Slide 1">
             <div class="tagline">Quality Fasteners You Can Trust</div>
@@ -91,8 +114,6 @@
             <img src="backgroundthree.jpeg" alt="Slide 3">
             <div class="tagline">Precision and Reliability</div>
         </div>
-
-
         <!-- Add more slides as needed -->
     </div>
     <a class="prev" onclick="prevSlide()"><i class="fa fa-chevron-left"></i></a>
@@ -103,7 +124,6 @@
     <div class="text-content">
         <h2>WELCOME TO</h2>
         <h3>Techno Fast Industries</h3>
-    
         <p>Established in 1990, Techno Fast Industries has been a pioneer in manufacturing high-quality washers, nuts, and bolts. With decades of expertise, we specialize in providing innovative and reliable fastening solutions for diverse industries. Our commitment to precision, durability, and customer satisfaction has made us a trusted partner in the global market. We pride ourselves on our advanced manufacturing processes and dedication to excellence, ensuring every product meets the highest standards of performance.
             Let us be your partner in fastener solutions!</p>
         <div class="features">
@@ -128,8 +148,6 @@
     </div>
 </div>
 
-
-
 <section class="mission-vision-goal">
     <div class="content-wrapper">
         <div class="content-box">
@@ -145,10 +163,11 @@
         <div class="content-box">
             <i class="icon-box fas fa-chart-line animate-icon"></i>
             <h2 class="heading-box animate-heading">Our Goal</h2>
-            <p class="text-box animate-text">To Lead in Fastening Excellence ,Delivering top-quality washers, nuts, and bolts through innovation and reliability</p>
+            <p class="text-box animate-text">To Lead in Fastening Excellence ,Delivering top-quality washers, nuts, and bolts through innovation and reliability.</p>
         </div>
     </div>
 </section>
+
 <!--<div class="techno-container">
     <div class="techno-company-info">
         <h1>Why Choose <span class="techno-highlight">Techno Fast Industries</span>?</h1>
@@ -204,7 +223,7 @@
 </div>
 
 
-<div class="custom-slider-heading">
+<div class="custom-slider-heading"></div>
     <h1>Our Product Range</h1>
 </div>
 <div class="custom-slider">
@@ -288,16 +307,46 @@
             </div>
     </div>
 </div>
-<!--whatsapp link-->
-
+<!--whasapp u sfix button-->
 <a href="https://wa.link/58on1d" class="whatsapp-float" target="_blank">
     <i class="fab fa-whatsapp"></i>
 </a>
-
+<div class="contactformmenu-section">
+        <div class="contactformmenu-details">
+            <h2>Contact Details</h2>
+            <div class="contactformmenu-item">
+                <i class="fa fa-user"></i>
+                <span>Mr Saeed Khan</span>
+                <p></p>
+            </div>
+            <div class="contactformmenu-item">
+                <i class="fa fa-phone"></i>
+                <span>Mobile: 9579618751</span>
+            </div>
+            <div class="contactformmenu-item">
+                <i class="fa fa-map-marker"></i>
+                <span>Gat No. 147, Behind Abhishek Restaurant, Opp. Kailash Vahan Udyog Ltd. Alandi Markal Road, Tal Khed, Dist-Pune -412105 maharashtra India.</span>
+            </div>
+            <!-- Updated button with SMS link -->
+            <a href="sms:+919579618751?body=Hello, I am contacting you regarding your services." class="contactformmenu-send-sms-btn">SEND SMS</a>
+        </div>
+        
+        <div class="contactformmenu-form">
+            <h2>Contact Us</h2>
+            <form id="my_contact_form" action="https://formspree.io/f/xovaznyj"
+            method="POST">
+                <input type="number" placeholder="Your mobile number" name="Mobile" required>
+                <textarea placeholder="Describe your requirement in detail" name="Message" required></textarea>
+                <button type="submit" class="contactformmenu-now-btn" name="Submit">CONTACT NOW</button>
+            </form>
+        </div>
+        
+        
+    </div>   
 <section class="contact-sectionone">
     <center><h2>Contact Techno Fast Industries</h2></center>
     <div class="contact-buttons">
-        <a href="tel:+123456789" class="contact-btn phone-btn">
+        <a href="tel:9579618751" class="contact-btn phone-btn">
             <i class="fas fa-phone"></i> Phone Us
         </a>
         <a href="https://wa.link/58on1d" class="contact-btn whatsapp-btn">
