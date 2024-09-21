@@ -16,6 +16,7 @@ body {
     background-color: #012752;
     color: #fff;
     /*text-shadow: 3px 3px 8px rgba(248, 246, 246, 0.934);*/
+    font-family: "Times New Roman", Times, serif;
 }
 
 .logo-container {
@@ -49,6 +50,7 @@ body {
     margin: 0;
     font-weight: bold; /* Makes the text bold */
    /* text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7); /* Adds shadow to the text */
+    font-family: "Times New Roman", Times, serif;
 }
 
 
@@ -80,6 +82,7 @@ body {
     color: #fff;
     transition: 0.3s;
     z-index: 1000;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .sidebar-header {
@@ -90,17 +93,20 @@ body {
     justify-content: space-between;
     padding: 5px;
     background-color: #002D62;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .close-btn {
     font-size: 30px;
     cursor: pointer;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .sidebar-links {
     list-style: none;
     padding: 20px;
     margin: 0;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .sidebar-links li {
@@ -197,12 +203,14 @@ body {
     color: white;
     color: #002D62;
     text-align: center;
+    font-family: "Times New Roman", Times, serif;
   }
   
   .wave-content h1 {
     font-size: 48px;
     margin-bottom: 10px;
     font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
   }
   
   .wave-content nav a, 
@@ -211,6 +219,7 @@ body {
     color:  #150635; 
     font-weight: bold;
     text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
   }
   
   .wave-content nav span {
@@ -277,6 +286,7 @@ body {
     background: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 5px;
+    font-family: "Times New Roman", Times, serif;
 }*/
 .tagline {
     position: absolute;
@@ -295,6 +305,7 @@ body {
     z-index: 5;
     font-weight: bold; /* Makes the text bold */
     text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7); /* Adds shadow to the text */
+    font-family: "Times New Roman", Times, serif;
 }
 
 
@@ -366,6 +377,7 @@ body {
     width: 65%;
     animation: fadeInLeft 2s ease-in-out forwards;
     text-align: left;
+    font-family: "Times New Roman", Times, serif;
 }
 @keyframes fadeInLeft {
     0% {
@@ -383,7 +395,7 @@ body {
     color: #d93025;
     margin-bottom: 10px;
     animation: fadeInLeft 1.2s ease-in-out forwards;
-     
+    font-family: "Times New Roman", Times, serif; 
     
 }
 
@@ -403,14 +415,14 @@ body {
     color: #1a73e8;
     margin-bottom: 20px;
     animation: fadeInLeft 1.2s ease-in-out forwards;
-    
+    font-family: "Times New Roman", Times, serif;
 }
 
 .text-content p {
     width: 65%;
     line-height: 1.6;
     animation: fadeInLeft 1.4s ease-in-out forwards;
-    
+    font-family: "Times New Roman", Times, serif;
    
 }
 
@@ -472,7 +484,7 @@ body {
     transition: background-color 0.3s, transform 0.3s;
     text-align: center;
     animation: fadeInUp 2s ease-in-out forwards;
-     
+    font-family: "Times New Roman", Times, serif; 
 }
 .more-button:hover {
     background-color: #b71c1c;
@@ -578,6 +590,7 @@ body {
     /*background-color: #9bbce0; /* Dark blue background */
     color: #fff;
     text-align: center;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .content-wrapper {
@@ -597,6 +610,7 @@ body {
     min-width: 250px;
     transition: transform 0.3s ease, background-color 0.3s ease;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    font-family: "Times New Roman", Times, serif;
 }
 
 .content-box:hover {
@@ -617,6 +631,7 @@ body {
     line-height: 1.6;
     color: #f0f0f0; /* Light grey for the text */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* More shadow for the highlighted text */
+    font-family: "Times New Roman", Times, serif;
 }
 
 /* Icon styling */
@@ -732,7 +747,7 @@ body {
     font-size: 2.7rem; /* Larger font size */
     color: #0d1b2a; /* Darker, more contrasting text color */
     font-weight: 900; /* Bold to make it stand out */
-    
+    font-family: "Times New Roman", Times, serif;
     letter-spacing: 1px;
     text-align: center;
 }
@@ -741,7 +756,7 @@ body {
 .techno-highlight {
     color: #007bff;
     font-weight: 900;
-    
+    font-family: "Times New Roman", Times, serif;
 }
 
 .techno-company-info p {
@@ -750,6 +765,7 @@ body {
     color: #333333; /* Darker shade for body text */
     line-height: 1.8rem;
     font-weight: 600; /* Medium-bold to enhance readability */
+    font-family: "Times New Roman", Times, serif;
 }
 
 /* Animations */
@@ -771,6 +787,7 @@ body {
     padding: 0 20px;
     padding-bottom: 40px;
     animation: fadeIn 2s ease-in-out;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .techno-factor {
@@ -784,6 +801,7 @@ body {
     color: #ffffff;
     opacity: 0;
     animation: fadeIn 3s ease-in-out forwards;
+    font-family: "Times New Roman", Times, serif;
     /
 }
 
@@ -802,6 +820,7 @@ body {
     margin-top: 15px;
     font-size: 1.4rem; /* Larger size for factor titles */
     font-weight: 700;
+    font-family: "Times New Roman", Times, serif;
     
 }
 
@@ -817,6 +836,7 @@ body {
     margin-top: 30px;
     animation: fadeInUp 2s ease-out forwards;
     opacity: 0; /* Start hidden */
+    font-family: "Times New Roman", Times, serif;
 }
 
 .custom-slider-heading h1 {
@@ -827,6 +847,7 @@ body {
     padding: 0;
     animation: scaleUp 2s ease-out forwards;
     transform: scale(0.8); /* Start smaller */
+    font-family: "Times New Roman", Times, serif;
 }
 /* Keyframes for the heading animations */
 @keyframes fadeInUp {
@@ -881,6 +902,7 @@ body {
     animation: contentSlideIn 1s ease forwards;
     opacity: 1 !important; /* Ensure visibility */
     visibility: visible !important; /* Ensure it's not hidden */
+    font-family: "Times New Roman", Times, serif;
 }
 
 .custom-cta-button {
@@ -981,7 +1003,7 @@ body {
     font-size: 28px;
     color: #333;
     margin-bottom: 40px;
-    font-family: 'Arial', sans-serif;
+    font-family: "Times New Roman", Times, serif;
     animation: fadeIn 1s ease-in-out;
 }
 
@@ -1064,6 +1086,7 @@ body {
     background-color: #002244;; /* Dark blue background */
         padding: 10px;
         color: #ffffff; /* White text for contrast */
+        font-family: "Times New Roman", Times, serif;
 }
 
 .contact-container {
@@ -1087,6 +1110,7 @@ body {
     margin-bottom: 15px;
     font-size: 16px;
     color: hsl(210, 100%, 100%); /* Deep blue for text */
+    font-family: "Times New Roman", Times, serif;
 }
 
 .icon-text i {
@@ -1094,6 +1118,7 @@ body {
     color: #ff6600; /* Bright orange for icons */
     margin-right: 10px;
     animation: icon-bounce 2s infinite;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .social-icons {
@@ -1173,7 +1198,8 @@ body {
     color: #fff;
     font-size: 2.2em;
     margin-bottom: 25px;
-    font-family: 'Poppins', sans-serif;
+   font-family: "Times New Roman", Times, serif;
+    
 }
 
 .pro-product-list {
@@ -1181,6 +1207,7 @@ body {
     padding: 0;
     margin-top: 25px;
     animation: listFadeIn 1.4s ease;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .pro-product-item {
@@ -1211,12 +1238,14 @@ body {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
     position: relative;
     animation: fadeInSlideRight 1.5s ease;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .pro-product-content {
     display: none;
     opacity: 0;
     animation: productFadeInUp 1.2s ease forwards;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .pro-product-content.pro-active {
@@ -1257,15 +1286,16 @@ body {
     font-size: 2.4em;
     margin-bottom: 20px;
     color: #2e3b4e;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Times New Roman", Times, serif;
     animation: textFadeIn 1.5s ease;
+    
 }
 
 .pro-product-content p {
     font-size: 1.2em;
     line-height: 1.8;
     color: #666;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 @keyframes zoomInImage {
@@ -1286,6 +1316,7 @@ body {
     padding: 60px 20px;
     text-align: center;
     overflow: hidden;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .about-techno-fast h1 {
@@ -1294,6 +1325,7 @@ body {
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .about-details {
@@ -1303,6 +1335,7 @@ body {
     opacity: 0;
     transform: translateY(50px);
     animation: slideUp 2s ease-out forwards;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .business-info ul {
@@ -1314,6 +1347,7 @@ body {
     font-size: 16px;
     color: #666;
     margin-bottom: 10px;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .icon-wrapper {
@@ -1374,6 +1408,7 @@ body {
     padding: 20px;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Times New Roman", Times, serif;
 }
 
 .contactformmenu-details h2 {
@@ -1381,6 +1416,7 @@ body {
     color: #003366;
     border-bottom: 2px solid #003366;
     margin-bottom: 15px;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .contactformmenu-item {
@@ -1425,6 +1461,7 @@ body {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .contactformmenu-now-btn {
@@ -1447,6 +1484,7 @@ body {
     display: none; /* Hidden initially */
     margin-top: 20px;
     text-align: center;
+    font-family: "Times New Roman", Times, serif;
 }
 
 
