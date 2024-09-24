@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -1146,6 +1146,7 @@ body {
     border-radius: 8px;
     overflow: hidden;
     margin-top: 20px;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .map-container iframe {
@@ -1182,6 +1183,7 @@ body {
     animation: fadeInUp 1.5s ease-in-out;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    font-family: "Times New Roman", Times, serif;
 }
 
 .pro-sidebar {
@@ -1191,6 +1193,7 @@ body {
     border-radius: 12px;
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
     animation: sidebarSlideIn 1.2s ease;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .pro-sidebar h3 {
@@ -1217,7 +1220,7 @@ body {
     margin-bottom: 15px;
     text-align: center;
     font-size: 1.3em;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Times New Roman", Times, serif;
     cursor: pointer;
     border-radius: 10px;
     transition: transform 0.3s ease, background-color 0.4s ease, color 0.4s ease;
@@ -1398,6 +1401,7 @@ body {
 
 .contactformmenu-section {
     display: flex;
+    font-family: "Times New Roman", Times, serif;
     justify-content: space-between;
     padding: 20px;
     background-color: #f0f7ff;
@@ -1413,6 +1417,7 @@ body {
 
 .contactformmenu-details h2 {
     font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
     color: #003366;
     border-bottom: 2px solid #003366;
     margin-bottom: 15px;
@@ -1450,6 +1455,7 @@ body {
 
 .contactformmenu-form h2 {
     font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
     color: #003366;
     margin-bottom: 15px;
 }
@@ -1495,11 +1501,13 @@ body {
     .contactformmenu-section {
         flex-direction: column;
         padding: 10px;
+        font-family: "Times New Roman", Times, serif;
         box-sizing: border-box;
     }
     
     .contactformmenu-details, .contactformmenu-form {
         flex: none;
+        font-family: "Times New Roman", Times, serif;
         width: 100%;
         margin-bottom: 20px;
         padding: 15px;
@@ -1508,6 +1516,7 @@ body {
     
     .contactformmenu-details h2, .contactformmenu-form h2 {
         font-size: 20px;
+        font-family: "Times New Roman", Times, serif;
         box-sizing: border-box;
     }
     
@@ -1543,6 +1552,7 @@ body {
 @media (max-width: 768px) {
     .body{
         background-image: url(backgroundbody.png)
+        font-family: "Times New Roman", Times, serif;
     }
     .nav-links {
         display: none;
@@ -1651,6 +1661,7 @@ body {
         width: 100%; /* Full width on small screens */
         animation: fadeInUpSmall 2s ease-in-out forwards;
         flex-direction: column;
+        font-family: "Times New Roman", Times, serif;
     }
 
     @keyframes fadeInUpSmall {
@@ -1666,6 +1677,7 @@ body {
 
     .text-content h2{text-align: left; /* Ensure text is centered */
         padding-left: 5px;
+        font-family: "Times New Roman", Times, serif;
         animation: fadeInUpSmall 1.2s ease-in-out forwards;
         width: 100%;
     }
@@ -1677,6 +1689,7 @@ body {
     }
     .text-content p {
         text-align: left; /* Ensure text is centered */
+        font-family: "Times New Roman", Times, serif;
         padding-left: 5px;
         animation: fadeInUpSmall 1.2s ease-in-out forwards;
         width: 100%; /* Full width on small screens */
@@ -1833,11 +1846,13 @@ color: #333;
 
 .techno-company-info h1 {
     font-size: 1.8rem; /* Slightly smaller for mobile screens */
+    font-family: "Times New Roman", Times, serif;
  
 }
 
 .techno-company-info p {
-    font-size: 1.1rem; /* Adjust paragraph size for mobile */
+    font-size: 1.1rem; /* Adjust paragraph size for mobile */font-family: "Times New Roman", Times, serif;
+    
     
 }
 
@@ -1856,6 +1871,7 @@ color: #333;
 
 .techno-factor h3 {
     font-size: 1.2rem; /* Adjust size of factor titles */
+    font-family: "Times New Roman", Times, serif;
 }
 
 .techno-icon {
@@ -1927,6 +1943,7 @@ color: #333;
 @media (max-width: 768px) {
     .custom-slider-heading{
         font-size: 1em;
+        font-family: "Times New Roman", Times, serif;
         padding-bottom: 0%;
     }
     
@@ -1959,12 +1976,14 @@ color: #333;
 
     .custom-slide-content h2 {
         font-size: 1.2em; /* Adjust font size */
+        font-family: "Times New Roman", Times, serif;
         margin: 0 0 10px;
         line-height: 1.1;
     }
 
     .custom-slide-content p {
         font-size: 1em;
+        font-family: "Times New Roman", Times, serif;
         margin: 0 0 20px;
         line-height: 1.3;
     }
@@ -2035,6 +2054,7 @@ color: #333;
 @media (max-width: 768px) {
 .contact-section h2 {
     font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .contact-buttons {
@@ -2062,6 +2082,7 @@ color: #333;
     /*background-color: #f0f4f7; /* Light blue background */
     /*padding: 20px;
     text-align: center;*/
+    font-family: "Times New Roman", Times, serif;
     background-color: #002244;; /* Dark blue background */
         padding: 10px;
         color: #ffffff; /* White text for contrast */
@@ -2087,6 +2108,7 @@ color: #333;
     align-items: center;
     margin-bottom: 15px;
     font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
     color: #f7f8f9; /* Deep blue for text */
 }
 
@@ -2195,6 +2217,7 @@ color: #333;
     .pro-products-section {
         flex-direction: column; /* Stack sidebar and content */
         padding: 18px;
+        font-family: "Times New Roman", Times, serif;
         box-sizing: border-box;
     }
 
@@ -2220,10 +2243,12 @@ color: #333;
 
     .pro-product-content h3 {
         font-size: 2em;
+        font-family: "Times New Roman", Times, serif;
     }
 
     .pro-product-content p {
         font-size: 1.1em;
+        font-family: "Times New Roman", Times, serif;
     }
 
     .pro-product-content img {
@@ -2241,6 +2266,7 @@ color: #333;
 
     .about-techno-fast h1 {
         font-size: 28px;
+        font-family: "Times New Roman", Times, serif;
         margin-bottom: 10px;
     }
 
@@ -2250,6 +2276,7 @@ color: #333;
     }
     .about-details {
         font-size: 16px;
+        font-family: "Times New Roman", Times, serif;
         margin-bottom: 30px;
     }
 
@@ -2279,6 +2306,7 @@ color: #333;
 
     .pro-sidebar h3 {
         font-size: 1.8em;
+        font-family: "Times New Roman", Times, serif;
     }
 
     .pro-product-item {
@@ -2288,10 +2316,12 @@ color: #333;
 
     .pro-product-content h3 {
         font-size: 1.8em;
+        font-family: "Times New Roman", Times, serif;
     }
 
     .pro-product-content p {
         font-size: 1em;
+        font-family: "Times New Roman", Times, serif;
     }
 
     .pro-product-content img {
@@ -2327,6 +2357,7 @@ color: #333;
 @media (max-width: 768px) {
     .wave-section {
         height: 300px; /* Keep height consistent with desktop */
+        font-family: "Times New Roman", Times, serif;
     }
 
     .wave-animation {
@@ -2335,6 +2366,7 @@ color: #333;
 
     .wave-content h1 {
         font-size: 48px; /* Keep font size the same */
+        font-family: "Times New Roman", Times, serif;
     }
 
     .wave-content nav a, 
